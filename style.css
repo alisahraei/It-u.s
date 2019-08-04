@@ -787,7 +787,10 @@ div.box-l2 a span.date{
   color: #777;
   font-size: 10px;
 }
-
+div.c-left img.pad{
+  width: 110px;
+  height: 75px;
+}
 
 
 
