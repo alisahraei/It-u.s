@@ -777,6 +777,9 @@ div.box-l2 a:hover span.circle{
   background-color: #0088ff;
   transform: scale(1.2);
 }
+div.box-l2 a:hover div.h3-t h3{
+  color: #0088ff;
+}
 div.box-l2 a:hover div.h3-t2 h3{
   color: #0088ff;
 }
