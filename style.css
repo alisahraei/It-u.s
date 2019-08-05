@@ -895,8 +895,51 @@ div.pad-all{
   /*margin-top: 10px;*/
   font-weight : bold;
 }
-
-
+div.box-pro{
+  /*padding       : 30px;*/
+  width           : 370px;
+  background-color: white;
+  box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
+  border-radius   : 3px;
+  height          : calc(23em + 3px);
+}
+div.c-left3{
+  width  : 400px;
+  padding: 0 15px;
+  float  : left;
+  margin-top: 38px;
+}
+div.c-left3 img{
+  height: 175px;
+  width : 310px;
+}
+div.c-left3 h3{
+  float  : left;
+  display: contents;
+}
+div.cl-border3{
+  border-bottom: 1px solid rgba(28, 28, 28, .07);
+  display      : flex;
+  margin-bottom: 25px;
+}
+div.cl-border3 h3 a{
+  color         : #2d2f34;
+  font-size     : 18px;
+  border-bottom : 2px solid #2d2f34;
+  padding-bottom: 8px;
+  cursor        : text;
+}
+div.box-l-gif{
+  margin         : 30px 85px 25px 85px;
+  display        : flex;
+  float          : right;
+  /*height       : 351px;*/
+  /*margin-bottom: 39px;*/
+}
+div.box-l-gif img{
+  height: 200px;
+  width: 200px;
+}
 
 
 
