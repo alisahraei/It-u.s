@@ -955,7 +955,7 @@ div.box-r-quote{
   height          : 238px;
   background-color: #2c2f34;
   padding         : 30px 50px;
-  margin-bottom: 31px;
+  margin-bottom   : 31px;
 }
 div.quote{
   color    : #0088ff;
@@ -1087,6 +1087,35 @@ aside{
   /*overflow: visible;*/
   /*position: fixed;*/
   /*float: left;*/
+}
+div.box-r-big{
+  display         : block;
+  float           : right;
+  width           : 768px;
+  margin-right    : -29px;
+  height: 399px;
+  background-color: #2c2f34;
+  cursor: pointer;
+  position: relative;
+  background-image: url(img/WhatsApp-Image-2019-07-02-at-2.32.38-PM-780x405.jpeg);
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.2s;
+}
+div.opac-big{
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
+  z-index         : 5;
+  position        : absolute;
+  right           : 0;
+  bottom          : 0;
+  height          : 67%;
+  width           : 100%;
+  transition      : opacity 0.2s;
+  opacity         : 1;
+}
+div.box-r-big:hover{
+  opacity: 0.85;
 }
 .re{
   position: relative;
