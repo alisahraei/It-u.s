@@ -811,9 +811,6 @@ div.box-l3{
 div.pad:hover{
   opacity: 0.85;
 }
-div.pad:hover span.i-camera{
-  background-color: rgb(0, 0, 0, 0.6);
-}
 div.box-l3-pad{
   /*margin       : 30px;*/
   display        : flex;
@@ -823,6 +820,9 @@ div.box-l3-pad{
 }
 div.box-l3 h3 a{
   color: #333;
+}
+div.pad:hover span.i-camera{
+  background-color: rgb(0, 0, 0, 0.6);
 }
 span.i-camera{
   height          : 40px;
@@ -1155,7 +1155,7 @@ div.box-r-endsec h1 a{
 }
 div.end-sec2{
   display: flex;
-  float: right;
+  float  : right;
 }
 div.archive{
   display     : block;
@@ -1177,24 +1177,25 @@ div.archive:hover{
 div.section3{
 }
 div.container-s3{
-  width: 100%;
-  height: 500px;
+  width           : 100%;
+  height          : 900px;
   background-color: #1f2024;
-  padding-top: 40px;
+  padding-top     : 39px;
 }
 div.box-right3{
-  width: 770px;
-  padding: 30px;
+  width           : 770px;
+  height          : 600px;
+  padding         : 30px 31px 30px 29px;
   background-color: inherit;
-  border-radius: 3px;
-  border: 1px solid rgba(255, 255, 255, 0.1)
+  border-radius   : 3px;
+  border          : 1px solid rgba(255, 255, 255, 0.1);
 }
 div.c-right3{
   width  : 800px;
   margin : 0 0 30px;
   float  : right;
   padding: 0 15px;
-  margin: 0 328px;
+  margin : 0 328px;
 
 }
 div.c-right3 img.bog{
@@ -1214,29 +1215,33 @@ div.cr-border3{
   margin-bottom: 25px;
 }
 div.cr-border3 h3 a{
-  color         : #006dcc;
+  color         : #0088ff;
   font-size     : 18px;
   border-bottom : 2px solid #0088ff;
   padding-bottom: 8px;
+  z-index: 10;
 }
-div.box-f{
+div.cr-border3 h3 a:hover{
+  color: #006dcc;
+}
+div.box-r-big3{
   display            : block;
   float              : right;
-  width              : 768px;
-  margin-right       : -29px;
-  height             : 399px;
+  width              : 706.86px;
+  height             : 367.02px;
   background-color   : #2c2f34;
   cursor             : pointer;
   position           : relative;
-  background-image   : url(img/WhatsApp-Image-2019-07-02-at-2.32.38-PM-780x405.jpeg);
+  background-image   : url(img/Walkman-Sony-تغییر-چگونگی-گوش-دادن-به-موسیقی-را-تغییر-780x405.jpg);
   background-position: center top;
   background-size    : cover;
   background-repeat  : no-repeat;
   transition         : 0.2s;
   padding            : 30px;
   margin-bottom      : 31px;
+  border-bottom      : 1px solid white;
 }
-div.opac-big{
+div.opac-big3{
   background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
   z-index         : 5;
   position        : absolute;
@@ -1247,15 +1252,15 @@ div.opac-big{
   transition      : opacity 0.2s;
   opacity         : 1;
 }
-div.box-f:hover{
+div.box-r-big3:hover{
   opacity: 0.85;
 }
-h5.b-click{
+h5.b-click3{
   /*font-weight   : normal;*/
   font-size       : 11px;
   color           : #fff;
   background-color: #0088ff;
-  padding         : 3px 6px 3px 5px;
+  padding         : 3px 6px 3px 6px;
   border-radius   : 2px;
   z-index         : 10;
   right           : 0px;
@@ -1263,26 +1268,97 @@ h5.b-click{
   bottom          : calc(10em + 1px);
   cursor          : pointer;
 }
-div.z-big-f{
-  bottom     : 30px;
+div.z-b-big3{
+  bottom     : 29px;
   z-index    : 10;
-  margin-left: 20px;
+  margin-left: 60px;
 }
-div.box-f h3,div.box-f h3 a{
+div.box-r-big3 h3,div.box-r-big3 h3 a{
   color      : white;
   font-size  : 36px;
   line-height: 1.2;
 }
-div.p-big-f{
+div.p-big3{
   /*margin-right: 230px;*/
   margin-top    : 11px;
 }
-div.p-big-f span, div.p-big-f a{
+div.p-big3 span, div.p-big3 a{
   float         : right;
   font-size     : 12px;
   color         : #fff;
   letter-spacing: 0.5;
 }
+div.box-r-big3:hover span.i-play{
+  background-color: rgb(0, 0, 0, 0.6);
+}
+span.i-play{
+  height          : 50px;
+  width           : 50px;
+  background-color: rgb(0, 0, 0, 0.3);
+  border          : 2px solid #fff;
+  border-radius   : 50%;text-align: center;
+  transition      : 0.3s;
+  z-index         : 10;
+  font-size       : 32PX;
+  display         : block;
+  position        : absolute;
+  left            : calc(50% - 1px);
+  right           : auto;
+  top             : 50%;
+  bottom          : auto;
+  transform       : translate(-50% , -50%);
+}
+div.sf-play{
+  color      : white;
+  text-align : center;
+  font-size  : 17px;
+  z-index    : 12;
+  margin-left: 3px;
+  padding    : 28% 0;
+  /*transform: translate(-50% , -50%);*/
+}
+div.p-down{
+  position: flex;
+  display : block;
+  float   : right;
+  width   : 706.64px;
+  height  : 100px;
+}
+div.p-n1{
+  width : 216px;
+  height: 121.84px;
+}
+div.p-n1:hover{
+  opacity: 0.85;
+}
+div.p-n1:hover span.i-play-s{
+  background-color: rgb(0, 0, 0, 0.6);
+}
+span.i-play-s{
+  height          : 40px;
+  width           : 40px;
+  background-color: rgb(0, 0, 0, 0.3);
+  border          : 2px solid #fff;
+  border-radius   : 50%;text-align: center;
+  transition      : 0.3s;
+  z-index         : 2;
+  font-size       : 32PX;
+  display         : block;
+  position        : absolute;
+  left            : 50%;
+  right           : auto;
+  top             : 50%;
+  bottom          : auto;
+  transform       : translate(-50% , -50%);
+}
+div.sf-play-s{
+  color      : white;
+  text-align : center;
+  font-size  : 17PX;
+  z-index    : 10;
+  padding    : 18%;
+  /*transform: translate(-50% , -50%);*/
+}
 
 
 
@@ -1291,8 +1367,9 @@ div.p-big-f span, div.p-big-f a{
 
 
 
-
-
+img.cover{
+  background-size: cover;
+}
 .re{
   position: relative;
 }
