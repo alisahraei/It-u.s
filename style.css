@@ -639,38 +639,38 @@ div.re span{
 
 
 div.c-left{
-  width: 400px;
+  width  : 400px;
   padding: 0 15px;
-  float: left;
+  float  : left;
 }
 div.c-left img{
   height: 175px;
-  width: 310px;
+  width : 310px;
 }
 div.c-left h3{
-  float: left;
+  float  : left;
   display: contents;
 }
 div.cl-border{
   border-bottom: 1px solid rgba(28, 28, 28, .07);
-  display: flex;
+  display      : flex;
   margin-bottom: 25px;
 }
 div.cl-border h3 a{
-  color: #2d2f34;
-  font-size: 18px;
-  border-bottom: 2px solid #2d2f34;
+  color         : #2d2f34;
+  font-size     : 18px;
+  border-bottom : 2px solid #2d2f34;
   padding-bottom: 8px;
-  cursor: text;
+  cursor        : text;
 }
 div.box-l{
-  width: 370px;
-  height: 351px;
-  margin-bottom: 39px;
-  padding: 30px;
+  width           : 370px;
+  height          : 351px;
+  margin-bottom   : 39px;
+  padding         : 30px;
   background-color: white;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-  border-radius: 3px;
+  box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
+  border-radius   : 3px;
 }
 div.box-l h3 a{
   color: #333;
@@ -692,11 +692,11 @@ h5.b-click-l:hover, h5.b-click-l:hover a{
 }
 div.tak-co{
   margin-top: 9px;
-  color: #999999;
-  font-size: 11px;
+  color     : #999999;
+  font-size : 11px;
 }
 div.text-bl{
-  margin-top: 9px;
+  margin-top : 9px;
   line-height: 2;
 }
 div.text-bl h3 a{
@@ -707,34 +707,34 @@ div.text-bl a:hover{
 }
 
 div.c-left2{
-  width: 400px;
+  width  : 400px;
   padding: 0 15px;
-  float: left;
+  float  : left;
 }
 div.c-left2 h3{
-  float: left;
+  float  : left;
   display: contents;
 }
 div.cl-border2{
   border-bottom: 1px solid rgba(28, 28, 28, .07);
-  display: flex;
+  display      : flex;
   margin-bottom: 25px;
 }
 div.cl-border2 h3 a{
-  color: #2d2f34;
-  font-size: 18px;
-  border-bottom: 2px solid #2d2f34;
+  color         : #2d2f34;
+  font-size     : 18px;
+  border-bottom : 2px solid #2d2f34;
   padding-bottom: 8px;
-  cursor: text;
+  cursor        : text;
 }
 div.box-l2{
-  width: 370px;
-  height: calc(64em - 1px);
-  margin-bottom: 39px;
-  padding: 30px;
+  width           : 370px;
+  height          : calc(64em - 1px);
+  margin-bottom   : 39px;
+  padding         : 30px;
   background-color: white;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-  border-radius: 3px;
+  box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
+  border-radius   : 3px;
 }
 div.box-l2 h3 a,div.box-l2 h3{
   color: #333;
@@ -746,47 +746,47 @@ div.news{
   padding-right: 12px;
 }
 div.h3-t h3{
-  font-size: 14px;
+  font-size  : 14px;
   font-weight: bold;
 }
 div.h3-t{
   letter-spacing: 1;
-  margin-top: 6px;
+  margin-top    : 6px;
   padding-bottom: 17px;
 }
 div.p-border{
-  border-right: 2px solid #e6e6e6;
+  border-right : 2px solid #e6e6e6;
   padding-right: 1px;
 }
 div.p-border2{
-  border-right: 2px solid #e6e6e6;
+  border-right : 2px solid #e6e6e6;
   padding-right: 1px;
 }
 div.h3-t2{
   letter-spacing: 1;
-  margin-top: 6px;
+  margin-top    : 6px;
   /*padding-bottom: 17px;*/
 }
 div.h3-t2 h3{
   font-weight: bold;
 }
 span.circle{
-  height: 12px;
-  width: 12px;
-  background-color: #e6e6e6;
-  border: 3px solid rgba(255, 255, 255, 0.8);
-  right: -8px;
-  left: auto;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 50%;
-  transform: translateZ(0);
+  height             : 12px;
+  width              : 12px;
+  background-color   : #e6e6e6;
+  border             : 3px solid rgba(255, 255, 255, 0.8);
+  right              : -8px;
+  left               : auto;
+  display            : inline-block;
+  vertical-align     : middle;
+  border-radius      : 50%;
+  transform          : translateZ(0);
   backface-visibility: hidden;
   transition-duration: 0.3s;
 }
 div.box-l2 a:hover span.circle{
   background-color: #0088ff;
-  transform: scale(1.2);
+  transform       : scale(1.2);
 }
 div.box-l2 a:hover div.h3-t h3{
   color: #0088ff;
@@ -795,63 +795,71 @@ div.box-l2 a:hover div.h3-t2 h3{
   color: #0088ff;
 }
 div.box-l2 a span.date{
-  color: #777;
+  color    : #777;
   font-size: 10px;
 }
 div.c-left div.pad{
-  width: 171px;
+  width : 171px;
   height: 75px;
 }
 div.c-left img.cover{
   background-size: cover;
 }
-div.test{
-  padding: 30px;
-  width: 370px;
+div.box-pad{
+  /*padding       : 30px;*/
+  width           : 370px;
   background-color: white;
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
-  border-radius: 3px;
-
+  box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
+  border-radius   : 3px;
+  height          : calc(16em + 1px);
 }
 div.box-l3{
-  display: flex;
-  float: right;
-  /*height: 351px;*/
+  margin         : 30px 30px 25px 30px;
+  display        : flex;
+  float          : right;
+  /*height       : 351px;*/
+  /*margin-bottom: 39px;*/
+}
+div.box-l3-pad{
+  /*margin       : 30px;*/
+  display        : flex;
+  float          : right;
+  /*height       : 351px;*/
   /*margin-bottom: 39px;*/
 }
 div.box-l3 h3 a{
   color: #333;
 }
 span.i-camera{
-  height: 40px;
-  width: 40px;
+  height          : 40px;
+  width           : 40px;
   background-color: rgb(0, 0, 0, 0.3);
-  border: 2px solid #fff;
-  border-radius: 50%;text-align: center;
-  transition: 0.3s;
-  z-index: 2;
-  font-size: 32PX;
-  display: block;
-  position: absolute;
-  left: 50%;
-  right: auto;
-  top: 50%;
-  bottom: auto;
-  transform: translate(-50% , -50%);
+  border          : 2px solid #fff;
+  border-radius   : 50%;text-align: center;
+  transition      : 0.3s;
+  z-index         : 2;
+  font-size       : 32PX;
+  display         : block;
+  position        : absolute;
+  left            : 50%;
+  right           : auto;
+  top             : 50%;
+  bottom          : auto;
+  transform       : translate(-50% , -50%);
 }
 div.sf-camera{
-  color: white;
-  text-align: center;
-  font-size: 17PX;
-  z-index: 10;
-  padding: 18%;
+  color      : white;
+  text-align : center;
+  font-size  : 17PX;
+  z-index    : 10;
+  padding    : 18%;
   /*transform: translate(-50% , -50%);*/
 }
 div.link-pad h3{
   margin: 0 0 5px;
 }
 div.link-pad h3 a{
-  color: #333;
+  color    : #333;
   font-size: 14px;
 }
 div.link-pad a:hover{
@@ -860,8 +868,8 @@ div.link-pad a:hover{
 div.text-pad{
   display     : inline;
   float       : right;
-  box-sizing: border-box;
-  margin-top: 1px;
+  box-sizing  : border-box;
+  margin-top  : 1px;
   margin-right: 15px;
 }
 div.text-pad span{
@@ -869,16 +877,23 @@ div.text-pad span{
 }
 div.post-pad{
   /*margin-right: 230px;*/
-  margin-top    : 10px;
+  margin-top    : 8px;
   float         : right;
   font-size     : 12px;
   color         : #999999;
   letter-spacing: 0.5;
 }
 div.pad-all{
-  color: #333;
-  font-size: 14px;
-  margin: 23px 30px 30px;
+  display     : block;
+  text-align  : center;
+  float       : right;
+  width       : 370px;
+  color       : #333;
+  font-size   : 14px;
+  border-top  : 1px solid rgba(0, 0, 0, 0.1);
+  padding     : 17px 50px;
+  /*margin-top: 10px;*/
+  font-weight : bold;
 }
 
 
