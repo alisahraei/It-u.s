@@ -868,6 +868,7 @@ div.text-pad{
 }
 div.text-pad span{
   font-size: 11px;
+  cursor: text;
 }
 div.post-pad{
   /*margin-right: 230px;*/
@@ -1399,8 +1400,8 @@ div.c-left-b{
   margin: 0 0 0 328px;
 }
 div.c-left-b img{
-  height: 175px;
-  width : 310px;
+  height: 75px;
+  width : 110px;
 }
 div.c-left-b h3{
   float  : left;
@@ -1444,9 +1445,6 @@ div.box-l3-pad-b{
   /*height       : 351px;*/
   /*margin-bottom: 39px;*/
 }
-div.box-l3-b h3 a{
-  color: #333;
-}
 div.pad-b:hover span.i-play-s{
   background-color: rgb(0, 0, 0, 0.6);
 }
@@ -1455,7 +1453,7 @@ div.link-pad-b h3{
   margin: 0 0 5px;
 }
 div.link-pad-b h3 a{
-  color    : #333;
+  color    : #fff;
   font-size: 14px;
 }
 div.link-pad-b a:hover{
@@ -1470,6 +1468,7 @@ div.text-pad-b{
 }
 div.text-pad-b span{
   font-size: 11px;
+  cursor: text;
 }
 div.post-pad-b{
   /*margin-right: 230px;*/
