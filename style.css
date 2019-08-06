@@ -1322,7 +1322,7 @@ div.p-down{
   display : block;
   float   : right;
   width   : 706.64px;
-  height  : 100px;
+  height  : 200px;
 }
 div.p-n1{
   width : 216px;
@@ -1359,7 +1359,13 @@ div.sf-play-s{
   padding    : 18%;
   /*transform: translate(-50% , -50%);*/
 }
-
+div.text-p-n1 span{
+  color: #aaa;
+}
+div.text-p-n1 h3, div.text-p-n1 h3 a{
+  font-size: 14px;
+  color: white;
+}
 
 
 
