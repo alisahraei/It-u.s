@@ -439,6 +439,7 @@ div.section2{
 }
 div.container{
   /*height: 500px;*/
+  overflow: hidden;
 }
 div.c-right{
   width  : 800px;
@@ -1075,10 +1076,26 @@ div.ch-d-3{
 div.ch-d-4{
   height: 71px;
 }
+div.aside{
+  /*position: fixed;*/
+  width: 400px;
+  height: 4093.824px;
+  float: left;
+  display: block;
+  top: 0;
+  left: 328px;
+  height: 245em;
+  /*overflow: scroll;*/
+
+}
 aside{
   /*overflow: visible;*/
-  /*position: fixed;*/
-  /*float: left;*/
+  position: absolute;
+  float: left;
+  width: 400px;
+  /*height: 245em;*/
+  /*left: 328px;*/
+  /*top: 0;*/
 }
 div.box-r-big{
   display            : block;
