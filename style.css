@@ -751,8 +751,8 @@ div.p-border2{
   padding-right: 1px;
 }
 div.h3-t2{
-  letter-spacing: 1;
-  margin-top    : 6px;
+  letter-spacing  : 1;
+  margin-top      : 6px;
   /*padding-bottom: 17px;*/
 }
 div.h3-t2 h3{
@@ -1078,24 +1078,24 @@ div.ch-d-4{
 }
 div.aside{
   /*position: fixed;*/
-  width: 400px;
-  height: 4093.824px;
-  float: left;
-  display: block;
-  top: 0;
-  left: 328px;
-  height: 245em;
+  width     : 400px;
+  height    : 4093.824px;
+  float     : left;
+  display   : block;
+  top       : 0;
+  left      : 328px;
+  height    : 245em;
   /*overflow: scroll;*/
 
 }
 aside{
   /*overflow: visible;*/
-  position: absolute;
-  float: left;
-  width: 400px;
-  /*height: 245em;*/
-  /*left: 328px;*/
-  /*top: 0;*/
+  position  : absolute;
+  float     : left;
+  width     : 400px;
+  /*height  : 245em;*/
+  /*left    : 328px;*/
+  /*top     : 0;*/
 }
 div.box-r-big{
   display            : block;
@@ -1196,7 +1196,7 @@ div.section3{
 }
 div.container-s3{
   width           : 100%;
-  height          : 900px;
+  height          : 896px;
   background-color: #1f2024;
   padding-top     : 39px;
 }
@@ -1338,10 +1338,10 @@ div.sf-play{
 }
 div.p-down{
   /*position: flex;*/
-  display : inline;
-  float   : right;
-  width   : 245px;
-  height  : 200px;
+  display   : inline;
+  float     : right;
+  width     : 245px;
+  height    : 200px;
 }
 div.p-down2{
   /*position: flex;*/
@@ -1352,10 +1352,10 @@ div.p-down2{
 }
 div.p-down3{
   /*position: flex;*/
-  display : inline;
-  float   : right;
+  display   : inline;
+  float     : right;
   /*width   : 242.64px;*/
-  height  : 200px;
+  height    : 200px;
 }
 div.p-n1{
   width : 216px;
@@ -1384,6 +1384,26 @@ span.i-play-s{
   bottom          : auto;
   transform       : translate(-50% , -50%);
 }
+div.p-n1:hover span.i-play-s-b{
+  background-color: rgb(0, 0, 0, 0.6);
+}
+span.i-play-s-b{
+  height          : 40px;
+  width           : 40px;
+  background-color: rgb(0, 0, 0, 0.3);
+  border          : 2px solid #fff;
+  border-radius   : 50%;text-align: center;
+  transition      : 0.3s;
+  z-index         : 2;
+  font-size       : 32PX;
+  display         : block;
+  position        : absolute;
+  left            : 50%;
+  right           : auto;
+  top             : calc(50% - 1px);
+  bottom          : auto;
+  transform       : translate(-50% , -50%);
+}
 div.sf-play-s{
   color      : white;
   text-align : center;
@@ -1393,18 +1413,18 @@ div.sf-play-s{
   /*transform: translate(-50% , -50%);*/
 }
 div.text-p-n1 span{
-  color: #aaa;
+  color   : #aaa;
   position: absolute;
-  width: 216px;
-  top: 12px;
-  cursor: text;
+  width   : 216px;
+  top     : 12px;
+  cursor  : text;
 }
 div.text-p-n1 h3, div.text-p-n1 h3 a{
-  font-size: 14px;
-  color: white;
-  position: absolute;
-  width: 207.63px;
-  top: 33px;
+  font-size  : 14px;
+  color      : white;
+  position   : absolute;
+  width      : 207.63px;
+  top        : 33px;
   line-height: 1.4;
 }
 div.text-p-n1 h3:hover, div.text-p-n1 h3 a:hover{
@@ -1414,11 +1434,11 @@ div.c-left-b{
   width  : 400px;
   padding: 0 15px;
   float  : left;
-  margin: 0 0 0 328px;
+  margin : 0 0 0 328px;
 }
 div.c-left-b img{
-  height: 75px;
-  width : 110px;
+  max-height: 75px;
+  max-width : 172px;
 }
 div.c-left-b h3{
   float  : left;
@@ -1442,11 +1462,18 @@ div.box-pad-b{
   background-color: inherit;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
-  height          : calc(16em + 1px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  height          : calc(68em + 7px);
+  border          : 1px solid rgba(255, 255, 255, 0.1);
 }
-div.box-l3-b{
-  margin         : 30px 30px 25px 30px;
+div.box-l3-b {
+  margin         : 30px 30px -14px 30px;
+  display        : flex;
+  float          : right;
+  /*height       : 351px;*/
+  /*margin-bottom: 39px;*/
+}
+div.box-l3-b-m{
+  margin         : 26px 30px -14px 30px;
   display        : flex;
   float          : right;
   /*height       : 351px;*/
@@ -1456,7 +1483,7 @@ div.pad-b:hover{
   opacity: 0.85;
 }
 div.box-l3-pad-b{
-  /*margin       : 30px;*/
+  /*margin       : 30px;
   display        : flex;
   float          : right;
   /*height       : 351px;*/
@@ -1465,13 +1492,17 @@ div.box-l3-pad-b{
 div.pad-b:hover span.i-play-s{
   background-color: rgb(0, 0, 0, 0.6);
 }
-
+div.link-pad-b{
+  max-width  : 286px;
+  line-height: 1.7;
+}
 div.link-pad-b h3{
   margin: 0 0 5px;
 }
 div.link-pad-b h3 a{
   color    : #fff;
   font-size: 14px;
+  /*width: 17px;*/
 }
 div.link-pad-b a:hover{
  color: #0088ff;
@@ -1485,15 +1516,16 @@ div.text-pad-b{
 }
 div.text-pad-b span{
   font-size: 11px;
-  cursor: text;
+  cursor   : text;
 }
 div.post-pad-b{
   /*margin-right: 230px;*/
-  margin-top    : 8px;
+  margin-top    : 6px;
   float         : right;
   font-size     : 12px;
   color         : #999999;
   letter-spacing: 0.5;
+  letter-spacing: -0.5px;
 }
 div.pad-all-b{
   display     : block;
@@ -1511,7 +1543,11 @@ div.pad-all-b{
 div.pad-all-b:hover{
   color: #0088ff;
 }
-
+div.section4{
+  height          : 500px;
+  width           : 100%;
+  background-color: grey;
+}
 
 
 
