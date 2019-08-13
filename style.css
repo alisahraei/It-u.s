@@ -1935,9 +1935,9 @@ div.box-pad-d{
   /*padding       : 30px;*/
   width           : 370px;
   background-color: white;
-  box-shadow    : 0 2px 5px 0 rgba(0, 0, 0, .1);
+  box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
-  height        : calc(68em + 7px);
+  height          : calc(68em + 7px);
   /*border        : 1px solid rgba(255, 255, 255, 0.1);*/
 }
 div.h-ins{
@@ -1946,14 +1946,14 @@ div.h-ins{
 div.pro{
   float: right;
   position: relative;
-/*  border: 1px solid red;
+  /*  border: 1px solid red;
   border-radius: 50%;
   padding: 1px;*/
 }
 div.pro a:before{
   content: '';
   position: absolute;
-/*  width: calc(100% + 6px);
+  /*  width: calc(100% + 6px);
   height: calc(100% + 6px);*/
   width: 76px;
   height: 76px;
@@ -1967,7 +1967,7 @@ div.pro a:before{
 div.pro a:after{
   position: absolute;
   content: '';
-/*  width: calc(100% + 4px);
+  /*  width: calc(100% + 4px);
   height: calc(100% + 4px);*/
   width: 74px;
   height: 74px;
@@ -1978,14 +1978,33 @@ div.pro a:after{
   z-index: 10;
 }
 div.pro img {
-  width: 70px;
-  height: 70px;
+  width        : 70px;
+  height       : 70px;
   border-radius: 50%;
-  z-index: 15;
-  position: relative;
+  z-index      : 15;
+  position     : relative;
 }
+div.title{
+  padding-top  : 8px;
+}
+div.titr{
+  margin-right: 90px;
+  word-spacing: -1.5px;
+}
+div.titr span{
+  font-size: 18.2px;
+  cursor   : pointer;
+  color    : #333;
+}
+div.titr:hover span{
+  color: #0088ff;
+}
+span#bog{
+  word-spacing: 0.2px;
+}
+div.d-content{
 
-
+}
 
 
 img.cover{
