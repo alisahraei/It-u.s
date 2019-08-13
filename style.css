@@ -2036,6 +2036,64 @@ div.down-ins{
 div.down-ins a{
   color: #2c2f34;
 }
+div.post-ins{
+  width: 314px;
+  float: left;
+}
+div.r-1{
+  width: 314px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.r-2{
+  width: 314px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.r-3{
+  width: 314px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.img1 img{
+  min-width: 100.66px;
+  min-height: 100.66px;
+}
+div.img1{
+  position: relative;
+}
+div.img2 img{
+  min-width: 100.66px;
+  min-height: 100.66px;
+}
+div.img3 img{
+  min-width: 100.66px;
+  min-height: 100.66px;
+}
+span.i-video-ins{
+  height          : 50px;
+  width           : 50px;
+  z-index         : 10;
+  font-size       : 32PX;
+  display         : block;
+  position        : absolute;
+  left            : 50%;
+  right           : auto;
+  top             : 50%;
+  bottom          : auto;
+  transform       : translate(-50% , -50%);
+}
+div.sf-video-camera{
+  color      : white;
+  text-align : center;
+  font-size  : 17px;
+  z-index    : 12;
+  margin-left: 3px;
+  padding    : 28% 0;
+  min-height : 19.98px;
+  min-width  : 20px;
+  /*transform: translate(-50% , -50%);*/
+}
 img.cover{
   background-size: cover;
 }
