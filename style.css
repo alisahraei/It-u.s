@@ -2003,9 +2003,30 @@ span#bog{
   word-spacing: 0.2px;
 }
 div.d-content{
-
+  padding-top: 19px;
+  margin-right: 90px;
 }
-
+span.pro-ins{
+  font-size: 12.6px;
+  opacity: 0.6;
+}
+span.num-ins{
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 0.7px;
+  color: #2c2f34;
+}
+div.content1{
+  margin-left: 10.5px;
+  display: inline-block;
+}
+div.content2{
+  display: inline-block;
+}
+div.content3{
+  display: inline-block;
+  margin-top: 12px;
+}
 
 img.cover{
   background-size: cover;
