@@ -1554,7 +1554,7 @@ div.container4{
 }
 div.box-right4{
   width: 770px;
-  height: calc(48em + 2px);
+  height: calc(48em - 6px);
   padding: 30px;
   background-color: white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .1);
@@ -1613,11 +1613,11 @@ div.box-r-big4{
   border-bottom      : 1px solid rgba(225, 225, 225, 1);
 }
 div.opac-big4{
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
   z-index         : 5;
   position        : absolute;
-  right           : 30px;
-  bottom          : 37px;
+  right           : 31px;
+  bottom          : 30px;
   height          : 58%;
   width           : 44%;
   transition      : opacity 0.2s;
@@ -1630,34 +1630,53 @@ h5.b-click4{
   /*font-weight   : normal;*/
   font-size       : 11px;
   color           : #fff;
-  background-color: #0088ff;
-  padding         : 3px 6px 3px 6px;
+  background-color: #9b59b6;
+  padding         : 3px 5px 3px 6px;
   border-radius   : 2px;
   z-index         : 10;
-  right           : 0px;
+  right           : 1px;
   left            : auto;
-  bottom          : 10em;
+  bottom          : calc(10em + 1px);
   cursor          : pointer;
 }
+span.min{
+  font-weight: bold;
+  padding-bottom: 1px;
+}
+h5.b-click4-b:hover, h5.b-click4-b:hover a{
+  background-color: #7d3b98;
+  color           : white;
+}
 div.z-b-big4{
-  bottom     : 29px;
+  bottom     : 50px;
   z-index    : 10;
   margin-left: 60px;
+  width      : 310px;
+  right      : 50.5px;
+}
+div.z-b-big4 h3, div.z-b-big4 h3 a{
+  color: white;
+  font-size: 25px;
 }
 div.box-r-big4 h3,div.box-r-big4 h3 a{
   color      : white;
   font-size  : 36px;
   line-height: 1.2;
 }
+
 div.p-big4{
   /*margin-right: 230px;*/
   margin-top    : 11px;
+}
+div.p-big4 span{
+  letter-spacing: 0.15px;
+
 }
 div.p-big4 span, div.p-big4 a{
   float         : right;
   font-size     : 12px;
   color         : #fff;
-  letter-spacing: 0.5;
+  /*letter-spacing: 0.5;*/
 }
 div.box-r-big4:hover span.i-play{
   background-color: rgb(0, 0, 0, 0.6);
@@ -1723,6 +1742,9 @@ div.box-pad-c{
   height          : calc(68em + 7px);
   /*border          : 1px solid rgba(255, 255, 255, 0.1);*/
 }
+a.text-4{
+  line-height: 30px;
+}
 div.box-l3-c {
   margin         : 30px 30px -14px 30px;
   display        : flex;
@@ -1784,6 +1806,7 @@ div.post-pad-c{
   color         : #999999;
   letter-spacing: 0.5;
   letter-spacing: -0.5px;
+  display: contents;
 }
 div.pad-all-c{
   display     : block;
@@ -1860,9 +1883,11 @@ div.in-right{
   width: 339px;
   overflow: hidden;
   margin-right: 1px;
+  float: right;
 }
 div.in-left{
   width: 370px;
+  float: left;
 }
 div.in-right img{
   min-width: 779px;
