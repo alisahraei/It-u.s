@@ -1937,7 +1937,7 @@ div.box-pad-d{
   background-color: white;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
-  height          : calc(68em + 7px);
+  height          : calc(50em + 2px);
   /*border        : 1px solid rgba(255, 255, 255, 0.1);*/
 }
 div.h-ins{
@@ -2056,29 +2056,80 @@ div.r-3{
   display: flex;
   flex-direction: row-reverse;
 }
+div.img1:hover, div.img2:hover, div.img3:hover{
+  opacity: 0.9;
+}
 div.img1 img{
-  min-width: 100.66px;
-  min-height: 100.66px;
+  min-width: 101px;
+  min-height: 101px;
 }
 div.img1{
   position: relative;
-  margin: 2px;
+  margin: 2px 2px 0 2px;
 }
 div.img2 img{
-  min-width: 100.66px;
-  min-height: 100.66px;
+  max-width: 100px;
+  min-height: 101px;
 }
 div.img2{
   position: relative;
-  margin: 2px;
+  margin: 2px 2px 0 2px;;
 }
 div.img3 img{
-  min-width: 100.66px;
-  min-height: 100.66px;
+  min-width: 101px;
+  min-height: 101px;
 }
 div.img3{
   position: relative;
-  margin: 2px;
+  margin: 2px 2px 0 2px;
+}
+div.img4 img{
+  min-width: 101px;
+  min-height: 100px;
+}
+div.img4{
+  position: relative;
+  margin: 2px 2px 0 2px;
+}
+div.img5 img{
+  max-width: 100px;
+  min-height: 100px;
+}
+div.img5{
+  position: relative;
+  margin: 2px 2px 0 2px;;
+}
+div.img6 img{
+  min-width: 101px;
+  min-height: 100px;
+}
+div.img6{
+  position: relative;
+  margin: 2px 2px 0 2px;
+}
+div.img7 img{
+  min-width: 101px;
+  min-height: 101px;
+}
+div.img7{
+  position: relative;
+  margin: 2px 2px 0 2px;
+}
+div.img8 img{
+  max-width: 100px;
+  min-height: 101px;
+}
+div.img8{
+  position: relative;
+  margin: 2px 2px 0 2px;;
+}
+div.img9 img{
+  min-width: 101px;
+  min-height: 101px;
+}
+div.img9{
+  position: relative;
+  margin: 2px 2px 0 2px;
 }
 div.i-video-ins{
   z-index   : 10;
