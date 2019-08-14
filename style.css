@@ -1941,7 +1941,7 @@ div.box-pad-d{
   /*border        : 1px solid rgba(255, 255, 255, 0.1);*/
 }
 div.h-ins{
-  padding: 30px;
+  padding: 30px 30px 13px 30px;
 }
 div.pro{
   float        : right;
@@ -2039,6 +2039,7 @@ div.down-ins a{
 div.post-ins{
   width: 314px;
   float: left;
+  margin-left: 28px;
 }
 div.r-1{
   width: 314px;
@@ -2061,35 +2062,41 @@ div.img1 img{
 }
 div.img1{
   position: relative;
+  margin: 2px;
 }
 div.img2 img{
   min-width: 100.66px;
   min-height: 100.66px;
 }
+div.img2{
+  position: relative;
+  margin: 2px;
+}
 div.img3 img{
   min-width: 100.66px;
   min-height: 100.66px;
 }
-span.i-video-ins{
-  height          : 50px;
-  width           : 50px;
-  z-index         : 10;
-  font-size       : 32PX;
-  display         : block;
-  position        : absolute;
-  left            : 50%;
-  right           : auto;
-  top             : 50%;
-  bottom          : auto;
-  transform       : translate(-50% , -50%);
+div.img3{
+  position: relative;
+  margin: 2px;
 }
-div.sf-video-camera{
+div.i-video-ins{
+  z-index   : 10;
+  font-size : 32PX;
+  display   : block;
+  position  : absolute;
+  left      : auto;
+  right     : 0;
+  top       : 0;
+  bottom    : auto;
+  transform : translate(-50% , -30%);
+}
+span.sf-video-camera{
   color      : white;
   text-align : center;
   font-size  : 17px;
   z-index    : 12;
-  margin-left: 3px;
-  padding    : 28% 0;
+  padding    : 0;
   min-height : 19.98px;
   min-width  : 20px;
   /*transform: translate(-50% , -50%);*/
