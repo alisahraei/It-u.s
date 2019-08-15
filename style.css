@@ -2391,6 +2391,40 @@ div.footer{
   height: 72px;
   background-color: #161619;
 }
+div.row6{
+  width: 1170px;
+  margin-right: 328px;
+  padding-top: 45px;
+}
+div.co-1{
+  display: inline;
+  float: right;
+  width: 415px;
+  height: 100px;
+}
+div.co-1 img{
+  max-width: 250px;
+  max-height: 71.2px;
+  top: 60px;
+  right: 15px;
+}
+div.co-2 p{
+  color: #aaa;
+  font-size: 14px;
+  line-height: 2;
+}
+div.co-2{
+  display: inline;
+  float: right;
+  width: 385px;
+  height: 100px;
+}
+div.co-3{
+  display: inline;
+  float: right;
+  width: 385px;
+  height: 100px;
+}
 img.cover{
   background-size: cover;
 }
