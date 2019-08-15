@@ -189,7 +189,7 @@ div.women{
   /*z-index          : -1;*/
 }
 div.dwl{
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
   z-index         : 5;
   position        : absolute;
   right           : 0;
@@ -253,7 +253,7 @@ div.tak{
   margin-left        : 1px;
 }
 div.dtl{
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
   z-index         : 5;
   position        : absolute;
   right           : 0;
@@ -282,7 +282,7 @@ div.ever{
   margin-left        : -1px;
 }
 div.del{
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.8));
   z-index         : 5;
   position        : absolute;
   right           : 0;
@@ -304,7 +304,7 @@ div.textw{
   color   : white;
 }
 div.textw div.spant{
-  font-size: 13px;
+  font-size: 14px;
   margin   : 0 0 14px 0;
 }
 div.textw h1{
@@ -317,7 +317,7 @@ div.textw div.span{
 }
 div.texts{
   position     : absolute;
-  bottom       : 36px;
+  bottom       : 37px;
   right        : 20px;
   z-index      : 10;
   color        : white;
@@ -328,8 +328,8 @@ div.texts{
   /*line-height: 1.5;*/
 }
 div.texts div.spant{
-  font-size: 13px;
-  margin   : 0 0 14px 0;
+  font-size: 14px;
+  margin   : 0 0 13px 0;
 }
 div.texts h1{
   font-weight   : bold;
@@ -365,7 +365,7 @@ div.textt{
   /*transition: 0.2s;*/
 }
 div.textt div.spant{
-  font-size: 13px;
+  font-size: 14px;
   margin   : 3px 0 0 0;
 }
 div.textt h1{
@@ -373,7 +373,7 @@ div.textt h1{
   font-size  : 20px;
   box-sizing : border-box;
   line-height: 1.5;
-  margin-top : 13px;
+  margin-top : 11px;
 }
 div.textt div.span{
   font-size      : 14px;
@@ -405,7 +405,7 @@ div.texte{
   /*line-height: 1.5;*/
 }
 div.texte div.spant{
-  font-size: 13px;
+  font-size: 14px;
   margin   : 3px 0 0 0;
 }
 div.texte h1{
@@ -413,7 +413,7 @@ div.texte h1{
   font-size  : 20px;
   box-sizing : border-box;
   line-height: 1.5;
-  margin-top : 13px;
+  margin-top : 11px;
 
 }
 div.texte div.span{
@@ -450,6 +450,9 @@ div.c-right{
 div.c-right img.bog{
   min-width: 213px;
 }
+div.c-right img.b-bog{
+  height: 120px;
+}
 div.c-right img{
   /*height: 120px;*/
   width   : 213px;
@@ -464,14 +467,10 @@ div.cr-border{
   margin-bottom: 25px;
 }
 div.cr-border h3 a{
-  color         : #006dcc;
+  color         : #0088ff;
   font-size     : 18px;
   border-bottom : 2px solid #0088ff;
   padding-bottom: 8px;
-}
-div.box-r h1 a{
-  font-size: 20px;
-  color    : #2d2f34;
 }
 div.cr-border h3 a:hover{
   color: #006dcc;
@@ -483,6 +482,23 @@ div.box-right{
   background-color: white;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
+}
+div.box-r-5i h1 a{
+  font-size: 20px;
+  color    : #2d2f34;
+}
+div.box-r-5i{
+  display       : flex;
+  float         : right;
+  width         : 710px;
+  padding-bottom: 21px;
+  margin-bottom: 24px;
+  border-bottom : 1px solid #f5f5f5;
+}
+
+div.box-r h1 a{
+  font-size: 20px;
+  color    : #2d2f34;
 }
 div.box-r{
   display       : flex;
@@ -518,6 +534,9 @@ div.post{
   /*margin-right: 230px;*/
   margin-top    : 10px;
 }
+div.post-bog{
+  margin-top: 11px;
+}
 div.post span, div.post a{
   float         : right;
   font-size     : 12px;
@@ -552,7 +571,7 @@ h5.b-click-sa{
   /*font-weight: normal;*/
   font-size       : 11px;
   color           : #fff;
-  background-color: #01b2b2;
+  background-color: #00a5a2;
   padding         : 3px 6px;
   left            : 10px;
   right           : auto;
@@ -560,6 +579,21 @@ h5.b-click-sa{
   border-radius   : 2px;
 }
 h5.b-click-sa:hover, h5.b-click-sa:hover a{
+  background-color: #009494;
+  color           : white;
+}
+h5.b-click-sa2{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #01b2b2;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 7px;
+  border-radius   : 2px;
+}
+h5.b-click-sa2:hover, h5.b-click-sa2:hover a{
   background-color: #009494;
   color           : white;
 }
@@ -575,6 +609,66 @@ h5.b-click-a{
   border-radius   : 2px;
 }
 h5.b-click-a:hover, h5.b-click-a:hover a{
+  background-color: #0088ff;
+  color           : white;
+}
+h5.b-click-a2{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #3498db;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 6px;
+  border-radius   : 2px;
+}
+h5.b-click-a2:hover, h5.b-click-a2:hover a{
+  background-color: #0088ff;
+  color           : white;
+}
+h5.b-click-a3{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #3498db;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 7px;
+  border-radius   : 2px;
+}
+h5.b-click-a3:hover, h5.b-click-a3:hover a{
+  background-color: #0088ff;
+  color           : white;
+}
+h5.b-click-a4{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #0088ff;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 6px;
+  border-radius   : 2px;
+}
+h5.b-click-a4:hover, h5.b-click-a4:hover a{
+  background-color: #0088ff;
+  color           : white;
+}
+h5.b-click-a5{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #3498db;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 7px;
+  border-radius   : 2px;
+}
+h5.b-click-a5:hover, h5.b-click-a5:hover a{
   background-color: #0088ff;
   color           : white;
 }
@@ -608,6 +702,21 @@ h5.b-click-s:hover, h5.b-click-s:hover a{
   background-color: #10ae53;
   color           : white;
 }
+h5.b-click-s2{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #2ecc71;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 6px;
+  border-radius   : 2px;
+}
+h5.b-click-s2:hover, h5.b-click-s2:hover a{
+  background-color: #10ae53;
+  color           : white;
+}
 h5.b-click-b{
   /*font-weight: normal;*/
   font-size       : 11px;
@@ -625,6 +734,9 @@ h5.b-click-b:hover, h5.b-click-b:hover a{
 }
 div.re span{
   cursor: pointer;
+}
+.t-news{
+  line-height: 19px;
 }
 div.c-left{
   width  : 400px;
@@ -679,16 +791,17 @@ h5.b-click-l:hover, h5.b-click-l:hover a{
   color           : white;
 }
 div.tak-co{
-  margin-top: 9px;
+  margin-top: 7px;
   color     : #999999;
   font-size : 11px;
 }
 div.text-bl{
-  margin-top : 9px;
+  margin-top : 8px;
   line-height: 2;
 }
 div.text-bl h3 a{
-  font-size: 20px;
+  line-height: 28px;
+  font-size  : 20px;
 }
 div.text-bl a:hover{
   color: #007bff;
@@ -719,7 +832,7 @@ div.box-l2{
   width           : 370px;
   height          : calc(64em - 1px);
   margin-bottom   : 39px;
-  padding         : 30px;
+  padding         : 29px 30px 30px 30px;
   background-color: white;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
@@ -740,7 +853,7 @@ div.h3-t h3{
 div.h3-t{
   letter-spacing: 1;
   margin-top    : 6px;
-  padding-bottom: 17px;
+  padding-bottom: 15px;
 }
 div.p-border{
   border-right : 2px solid #e6e6e6;
@@ -856,6 +969,7 @@ div.link-pad h3{
 div.link-pad h3 a{
   color    : #333;
   font-size: 14px;
+  line-height: 19px;
 }
 div.link-pad a:hover{
  color: #0088ff;
@@ -864,7 +978,7 @@ div.text-pad{
   display     : inline;
   float       : right;
   box-sizing  : border-box;
-  margin-top  : 1px;
+  /*margin-top  : 1px;*/
   margin-right: 15px;
 }
 div.text-pad span{
@@ -873,7 +987,7 @@ div.text-pad span{
 }
 div.post-pad{
   /*margin-right: 230px;*/
-  margin-top    : 8px;
+  margin-top    : 7px;
   float         : right;
   font-size     : 12px;
   color         : #999999;
@@ -995,7 +1109,7 @@ div.box-l4{
   width           : 370px;
   height          : calc(27em + 1px);
   margin-bottom   : 39px;
-  padding         : 30px;
+  padding         : 29px 30px 30px 30px;
   background-color: white;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
@@ -1042,7 +1156,7 @@ div.box-l5{
   width           : 370px;
   height          : calc(32em + 3px);
   margin-bottom   : 39px;
-  padding         : 30px;
+  padding         : 29px 30px 30px 30px;
   background-color: white;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
@@ -1111,7 +1225,7 @@ div.box-r-big{
   background-size    : cover;
   background-repeat  : no-repeat;
   transition         : 0.2s;
-  padding            : 30px;
+  padding            : 30px 29.5px 30px 30px;
   margin-bottom      : 31px;
 }
 div.opac-big{
@@ -1128,18 +1242,23 @@ div.opac-big{
 div.box-r-big:hover{
   opacity: 0.85;
 }
-h5.b-click{
+h5.b-click10{
   /*font-weight   : normal;*/
   font-size       : 11px;
   color           : #fff;
   background-color: #0088ff;
-  padding         : 3px 6px 3px 5px;
+  padding         : 3px 5px 3px 6px;
   border-radius   : 2px;
   z-index         : 10;
   right           : 0px;
   left            : auto;
   bottom          : calc(10em + 1px);
   cursor          : pointer;
+  margin-right    : 1px;
+}
+h5.b-click10:hover, h5.b-click10:hover a{
+  background-color: #006dcc;
+  color           : white;
 }
 div.z-b-big{
   bottom     : 30px;
@@ -2485,6 +2604,7 @@ input.email{
   padding-right: 110px;
   position: absolute;
   padding-top: 2px;
+  background-color: #1f2024;
 }
 input.submit{
   background-color: #616163;
@@ -2572,6 +2692,9 @@ img.cover{
 }
 .right{
   float: right;
+}
+.letter{
+  letter-spacing: -0.5px;
 }
 img{
   cursor: pointer;
