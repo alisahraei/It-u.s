@@ -69,7 +69,7 @@ div.nav a#v{
   padding: 27px 14px 28px 14px;
 }
 div.nav a#sa{
-  padding: 27px 15px 28px 13.5px;
+  padding: 27px 16px 28px 12.5px;
 }
 div.nav a:hover{
   color           : white;
@@ -1380,7 +1380,7 @@ div.box-r-big3{
   border-bottom      : 1px solid rgba(225, 225, 225, 1);
 }
 div.opac-big3{
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.75));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.73));
   z-index         : 5;
   position        : absolute;
   right           : 0;
@@ -1453,6 +1453,15 @@ div.sf-play{
   z-index    : 12;
   margin-left: 3px;
   padding    : 28% 0;
+  /*transform: translate(-50% , -50%);*/
+}
+div.sf-play-1{
+  color      : white;
+  text-align : center;
+  font-size  : 17px;
+  z-index    : 12;
+  margin-left: 3px;
+  /*padding    : 28% 0;*/
   /*transform: translate(-50% , -50%);*/
 }
 div.p-down{
@@ -1817,7 +1826,7 @@ span.i-play{
   bottom          : auto;
   transform       : translate(-50% , -50%);
 }
-div.sf-play{
+/*div.sf-play{
   color      : white;
   text-align : center;
   font-size  : 17px;
@@ -1825,7 +1834,7 @@ div.sf-play{
   margin-left: 3px;
   padding    : 20% 0;
   /*transform: translate(-50% , -50%);*/
-}
+}*/
 div.c-left-c{
   width  : 400px;
   padding: 0 15px;
@@ -2346,7 +2355,7 @@ div.text-ps5{
   max-height  : 150px;
 }
 div.his{
-  margin-right: -1px;
+  /*margin-right: -1px;*/
 }
 div.h-titr{
   padding-top: 9px;
@@ -2357,6 +2366,7 @@ div.h-titr h3{
 }
 div.h-titr h3 a{
   font-size: 20px;
+  color: #333;
 }
 div.h-titr h3 a:hover{
   color: #000;
@@ -2386,7 +2396,8 @@ div.img-p:hover{
   opacity: 0.9;
 }
 div.his span.p{
-  word-spacing: -1.5px;
+  word-spacing  : 0px;
+  letter-spacing: -0.45px;
 }
 div.a-post{
   /*  display       : flex;
@@ -2604,7 +2615,8 @@ input.email{
   padding-right: 110px;
   position: absolute;
   padding-top: 2px;
-  background-color: #1f2024;
+  background-color: #1f2023;
+  color: white;
 }
 input.submit{
   background-color: #616163;
