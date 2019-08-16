@@ -582,6 +582,21 @@ h5.b-click-sa:hover, h5.b-click-sa:hover a{
   background-color: #009494;
   color           : white;
 }
+h5.b-click-sa3{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #00a5a2;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 6px;
+  border-radius   : 2px;
+}
+h5.b-click-sa3:hover, h5.b-click-sa3:hover a{
+  background-color: #009494;
+  color           : white;
+}
 h5.b-click-sa2{
   /*font-weight: normal;*/
   font-size       : 11px;
@@ -699,6 +714,21 @@ h5.b-click-s{
   border-radius   : 2px;
 }
 h5.b-click-s:hover, h5.b-click-s:hover a{
+  background-color: #10ae53;
+  color           : white;
+}
+h5.b-click-s1{
+  /*font-weight: normal;*/
+  font-size       : 11px;
+  color           : #fff;
+  background-color: #2ecc71;
+  padding         : 3px 6px;
+  left            : 10px;
+  right           : auto;
+  bottom          : 6px;
+  border-radius   : 2px;
+}
+h5.b-click-s1:hover, h5.b-click-s1:hover a{
   background-color: #10ae53;
   color           : white;
 }
@@ -884,6 +914,7 @@ span.circle{
   transform          : translateZ(0);
   backface-visibility: hidden;
   transition-duration: 0.3s;
+  top                : 1px;
 }
 div.box-l2 a:hover span.circle{
   background-color: #0088ff;
@@ -1234,7 +1265,7 @@ div.opac-big{
   position        : absolute;
   right           : 0;
   bottom          : 0;
-  height          : 67%;
+  height          : 63%;
   width           : 100%;
   transition      : opacity 0.2s;
   opacity         : 1;
@@ -1252,7 +1283,7 @@ h5.b-click10{
   z-index         : 10;
   right           : 0px;
   left            : auto;
-  bottom          : calc(10em + 1px);
+  bottom          : 10em;
   cursor          : pointer;
   margin-right    : 1px;
 }
@@ -1375,12 +1406,12 @@ div.box-r-big3{
   background-size    : cover;
   background-repeat  : no-repeat;
   transition         : 0.2s;
-  padding            : 30px;
+  padding            : 30px 29.5px 30px 30px;
   margin-bottom      : 30px;
   border-bottom      : 1px solid rgba(225, 225, 225, 1);
 }
 div.opac-big3{
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.73));
+  background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.74));
   z-index         : 5;
   position        : absolute;
   right           : 0;
@@ -1397,7 +1428,7 @@ h5.b-click3{
   /*font-weight   : normal;*/
   font-size       : 11px;
   color           : #fff;
-  background-color: #0088ff;
+  background-color: #3498db;
   padding         : 3px 6px 3px 6px;
   border-radius   : 2px;
   z-index         : 10;
@@ -1475,7 +1506,7 @@ div.p-down2{
   /*position: flex;*/
   display : inline;
   float   : right;
-  width   : 245px;
+  width   : 245.5px;
   height  : 200px;
 }
 div.p-down3{
@@ -1651,7 +1682,7 @@ div.post-pad-b{
   margin-top    : 6px;
   float         : right;
   font-size     : 12px;
-  color         : #999999;
+  color         : #aaa;
   letter-spacing: 0.5;
   letter-spacing: -0.5px;
 }
@@ -2311,7 +2342,7 @@ div.box-center{
   background-color: white;
   box-shadow      : 0 2px 5px 0 rgba(0, 0, 0, .1);
   border-radius   : 3px;
-  margin-bottom: calc(8em - 10px);
+  margin-bottom   : calc(8em - 10px);
 }
 div.post1{
   width         : 1108.19px;
@@ -2366,7 +2397,7 @@ div.h-titr h3{
 }
 div.h-titr h3 a{
   font-size: 20px;
-  color: #333;
+  color    : #333;
 }
 div.h-titr h3 a:hover{
   color: #000;
@@ -2400,7 +2431,7 @@ div.his span.p{
   letter-spacing: -0.45px;
 }
 div.a-post{
-  /*  display       : flex;
+  /*  display   : flex;
   flex-direction: row;*/
 }
 div.a-post span{
@@ -2409,7 +2440,7 @@ div.a-post span{
 div.a-post h3 a{
   font-size  : 14px;
   color      : #333;
-  line-height: 10px;
+  line-height: 6px;
 }
 div.p-1{
   float       : right;
@@ -2490,12 +2521,12 @@ div.r3 div{
   padding-right: 125.5px;
 }
 div.matn div.h3-p{
-  margin-top : 13px;
-  line-height: 0.85;
+  margin-top : 15px;
+  line-height: 0.55;
 }
 div.matn div.h3-p-bog{
-  margin-top : 7px;
-  line-height: 2.05;
+  margin-top : 9px;
+  line-height: 1.75;
 }
 div.matn div.span-p{
   margin-top    : 6px;
@@ -2512,90 +2543,90 @@ div.ra1{
   height: 108px;
 }
 div.section6{
-  height: 227px;
-  width: 100%;
+  height          : 227px;
+  width           : 100%;
   background-color: #1f2024;
 }
 
 div.row6{
-  width: 1170px;
+  width       : 1170px;
   margin-right: 328px;
-  padding-top: 45px;
+  padding-top : 45px;
 }
 div.co-1{
   display: inline;
-  float: right;
-  width: 415px;
-  height: 100px;
+  float  : right;
+  width  : 415px;
+  height : 100px;
 }
 div.co-1 img{
-  max-width: 250px;
+  max-width : 250px;
   max-height: 71.2px;
-  top: 60px;
-  right: 15px;
+  top       : 60px;
+  right     : 15px;
 }
 div.co-2 p{
-  color: #aaa;
-  font-size: 14px;
+  color      : #aaa;
+  font-size  : 14px;
   line-height: 2;
 }
 div.co-2{
-  display: inline;
-  float: right;
-  width: 400px;
-  height: 100px;
+  display     : inline;
+  float       : right;
+  width       : 400px;
+  height      : 100px;
   padding-left: 20px;
 }
 div.co-3 p{
-  color: #aaa;
-  font-size: 14px;
+  color      : #aaa;
+  font-size  : 14px;
   line-height: 2;
 }
 div.co-3{
   display: inline;
-  float: right;
-  width: 300px;
-  height: 100px;
+  float  : right;
+  width  : 300px;
+  height : 100px;
 }
 div.icon1{
-  color: #aaa;
-  display: inline;
-  float: right;
-  height: 24px;
-  width: 24px;
+  color    : #aaa;
+  display  : inline;
+  float    : right;
+  height   : 24px;
+  width    : 24px;
   font-size: 16px;
 }
 div.icon1:hover{
   color: #3897f0;
 }
 div.icon2{
-  color: #aaa;
-  display: inline;
-  float: right;
-  height: 24px;
-  width: 24px;
+  color    : #aaa;
+  display  : inline;
+  float    : right;
+  height   : 24px;
+  width    : 24px;
   font-size: 16px;
 }
 div.icon2:hover{
   color: #3897f0;
 }
 div.icon3{
-  color: #aaa;
-  display: inline;
-  float: right;
-  height: 24px;
-  width: 24px;
+  color    : #aaa;
+  display  : inline;
+  float    : right;
+  height   : 24px;
+  width    : 24px;
   font-size: 16px;
 }
 div.icon3:hover{
   color: #3897f0;
 }
 div.icon4{
-  color: #aaa;
-  display: inline;
-  float: right;
-  height: 24px;
-  width: 24px;
+  color    : #aaa;
+  display  : inline;
+  float    : right;
+  height   : 24px;
+  width    : 24px;
   font-size: 16px;
 }
 div.icon4:hover{
@@ -2605,61 +2636,61 @@ div.mail{
   margin-top: 20px;
 }
 input.email{
-  outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  outline         : none;
+  border          : 1px solid rgba(255, 255, 255, 0.1);
   background-color: inherit;
-  height: 41px;
-  min-width: 369.98px;
-  font-size: 13px;
-  direction: rtl;
-  padding-right: 110px;
-  position: absolute;
-  padding-top: 2px;
+  height          : 41px;
+  min-width       : 369.98px;
+  font-size       : 13px;
+  direction       : rtl;
+  padding-right   : 109px;
+  position        : absolute;
+  padding-top     : 2px;
   background-color: #1f2023;
-  color: white;
+  color           : white;
 }
 input.submit{
   background-color: #616163;
-  color: #aaa;
-  outline: none;
-  border: none;
-  height: 41px;
-  width: 100px;
-  font-size: 14px;
-  position: absolute;
-  padding-top: 2px;
+  color           : #aaa;
+  outline         : none;
+  border          : none;
+  height          : 41px;
+  width           : 100px;
+  font-size       : 14px;
+  position        : absolute;
+  padding-top     : 2px;
 }
 div.icon5{
-  position: absolute;
-  left: -84px;
-  right: auto;
-  top: 10px;
-  height: 18px;
-  width: 36px;
-  color: #fff;
+  position : absolute;
+  left     : -81px;
+  right    : auto;
+  top      : 10px;
+  height   : 18px;
+  width    : 36px;
+  color    : #aaa;
   font-size: 16px;
 }
 div.ceo{
   position: absolute;
-  top: calc(15em + 2px);
+  top     : calc(15em + 2px);
 }
 div.ceo a{
-  color: #fff;
+  color    : #fff;
   font-size: 14px;
 }
 div.ceo h6 a:hover{
   color: #0088ff;
 }
 div.footer{
-  width: 100%;
-  height: 72px;
+  width           : 100%;
+  height          : 72px;
   background-color: #161619;
 }
 div.container-f{
   margin-right: 328px;
 }
 div.footer div{
-  color: #aaa;
+  color    : #aaa;
   font-size: 13px;
 }
 div.footer a{
@@ -2669,19 +2700,19 @@ div.footer a:hover{
   color: #0088ff;
 }
 div.text-f{
-  padding-top: 29px;
+  padding-top  : 29px;
   padding-right: 15px;
 }
 div.about{
-  float: left;
-  margin-left: 328px;
-/*  padding-left: 22px;
-  margin-bottom: 10px;*/
-  bottom: 15px;
-  left: 20px;
+  float           : left;
+  margin-left     : 328px;
+  /*  padding-left: 22px;
+  margin-bottom   : 10px;*/
+  bottom          : 15px;
+  left            : 20px;
 }
 div.das{
-  display: inline;
+  display     : inline;
   padding-left: 10px;
 }
 div.dar{
@@ -2689,6 +2720,12 @@ div.dar{
 }
 div.about a{
   font-size: 14px;
+}
+span.s{
+  font-size: 12px;
+}
+input{
+  font-family: inherit;
 }
 img.cover{
   background-size: cover;
